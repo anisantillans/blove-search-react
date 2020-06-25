@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/CarouselItem.scss';
+import moreIcon from '../assets/static/more.png';
 
 const CarouselItem = () => (
   <div className="carousel-item">
@@ -10,7 +11,7 @@ const CarouselItem = () => (
     />
     <div className="carousel-item__details">
       <div>
-        <img className="details-more" src="./img/more.png" alt="" />
+        <img className="details-more" src={moreIcon} alt="" />
       </div>
       <p className="carousel-item__details--title">Ana Sialani</p>
       <p className="carousel-item__details--subtitle">19 years A+</p>

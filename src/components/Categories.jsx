@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/styles/components/Categories.scss';
 
-const Categories = ({ children }) => (
+const Categories = ({ children, title }) => (
   <div className="categories">
-    <h2 className="carousel-title">THEY NEED YOUR HELP</h2>
+    <h2 className="carousel-title">{title}</h2>
     {children}
   </div>
 );

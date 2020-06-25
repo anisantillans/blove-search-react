@@ -21,14 +21,6 @@
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1000px) {
-  .header__img {
-    width: 73px !important;
-    margin-top: 5px !important;
-    margin-left: 10px !important;
-  }
-}
-
 .header__title--blove {
   margin-top: 15px;
   padding-top: 20px;
@@ -41,22 +33,9 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 1000px) {
-  .header__title--blove,
-  .header__title--donation {
-    display: none !important;
-  }
-}
-
 .header__menu {
   margin-right: 30px;
   margin-top: 15px;
-}
-
-@media screen and (max-width: 1000px) {
-  .header__menu {
-    margin-top: 5px !important;
-  }
 }
 
 .header__menu ul {
@@ -78,12 +57,6 @@ ul:hover {
   margin: 10px 0px;
 }
 
-@media screen and (max-width: 1000px) {
-  .header__menu li {
-    margin: 3px 0px;
-  }
-}
-
 .header__menu li a {
   color: #9a1f40;
   text-decoration: none;
@@ -98,12 +71,6 @@ ul:hover {
   display: flex;
   align-items: center;
   cursor: pointer;
-}
-
-@media screen and (max-width: 1000px) {
-  .profile-icon {
-    width: 25px !important;
-  }
 }
 
 .header__menu--profile img {

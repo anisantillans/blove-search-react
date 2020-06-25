@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+  .header__img {
+    width: 73px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .header__title--blove,
+  .header__title--donation {
+    display: none;
+  }
+
+  .header__menu {
+    margin-top: 5px;
+  }
+
+  .header__menu li {
+    margin: 3px 0px;
+  }
+
+  .profile-icon {
+    width: 25px;
+  }
+
+  .main__search {
+    background-size: fill;
+    background-position-x: left 51%;
+    background-repeat: no-repeat;
+  }
+
+  .main__search__title {
+    margin: 0px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .main__search__subtitle {
+    margin: 15px 0px 0px 41%;
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .main__search__question {
+    margin: 0px;
+    padding-top: 50px;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .input {
+    width: 55%;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .carousel-title {
+    font-size: 20px;
+  }
+
+  .carousel {
+    padding-left: 10px;
+    margin-top: 30px;
+    height: 360px;
+  }
+
+  .carousel-item {
+    width: 200px;
+    height: 250px;
+  }
+
+  footer {
+    font-size: 13px;
+  }
+}
