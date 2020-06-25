@@ -1,0 +1,11 @@
+.carousel-title {
+  color: white;
+  text-align: center;
+  margin-top: 53px;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-title {
+    font-size: 20px;
+  }
+}
