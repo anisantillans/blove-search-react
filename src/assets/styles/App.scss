@@ -5,4 +5,7 @@ body {
   margin: 0;
   background-color: $main-color;
   font-family: $theme-font-muli;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
