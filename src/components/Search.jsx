@@ -7,7 +7,7 @@ const Search = () => (
       <p className="main__search__title">You can be a hero!</p>
       <p className="main__search__subtitle">DONATE BLOOD</p>
       <p className="main__search__question">What`s your blood type?</p>
-      <input className="input" type="text" placeholder="Search..." />
+      <input className="inputSearch" type="text" placeholder="Search..." />
     </div>
   </section>
 );

@@ -12,6 +12,11 @@
   position: relative;
 }
 
+.carousel-item__details--img {
+  width: 20px;
+  margin: 0 4px 0 0;
+}
+
 .carousel-item__img {
   width: 100%;
   height: 100%;
@@ -38,6 +43,10 @@
   right: 0;
   bottom: 0;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .carousel-item__details:hover {
@@ -51,11 +60,12 @@
 }
 
 .carousel-item__details--title {
-  position: absolute;
-  bottom: 25px;
+  color: white;
+  margin: 5px 0px 0px 0px;
 }
 
 .carousel-item__details--subtitle {
-  position: absolute;
-  bottom: 5px;
+  color: white;
+  font-size: 8px;
+  margin: 3px 0px;
 }
